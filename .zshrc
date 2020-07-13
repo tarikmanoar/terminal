@@ -166,6 +166,10 @@ alias npmr="npm install && npm run --dev"
 alias sau='sudo apt-get update'
 alias si="sudo apt-get install"
 alias chr="google-chrome"
+alias vga='xrandr --newmode "1368x768_60.00"   85.25  1368 1440 1576 1784  768 771 781 798 -hsync +vsync
+xrandr --addmode VGA-1 "1368x768_60.00"
+xrandr --output VGA-1 --mode  "1368x768_60.00"
+'
 
 #Ibus KeyBoard
     export GTK_IM_MODULE=ibus
